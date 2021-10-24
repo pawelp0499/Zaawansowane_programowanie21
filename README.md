@@ -1,2 +1,2 @@
 # Zaawansowane_programowianie21
-Witaj w repozytorium z zajęć Zaawansowane programowianie!
+Witaj w repozytorium z zajęć Zaawansowane programowianie! 👋
