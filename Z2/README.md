@@ -1,4 +1,4 @@
-use _all.py or _orders_print.py
+use main.py or all.py
 
 # Labs 4 / Zad 2
 
