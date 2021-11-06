@@ -1,4 +1,4 @@
-use main.py or all.py
+use main.py or possibly all.py
 
 # Labs 4 / Zad 2
 
