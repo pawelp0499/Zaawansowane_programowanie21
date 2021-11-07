@@ -9,11 +9,11 @@ class Book:
         self._library = library
         self._publication_date = publication_date
         self._author_name = author_name
-        self.author_surname = author_surname
+        self._author_surname = author_surname
         self._number_of_pages = number_of_pages
 
     def __str__(self):
         return f"The book is owned by library in {self._library.city} on" \
                f" {self._library.street}, date of publication is " \
                f"{self._publication_date}, author is {self._author_name}" \
-               f" {self.author_surname}."
+               f" {self._author_surname}."
