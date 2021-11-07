@@ -13,12 +13,14 @@ Library (klasa opisująca bibliotekę), posiadająca pola:
 ◾ phone
 
 Order (klasa opisująca zamówienie), posiadająca pola:
+
 ◾ employee
 ◾ student
 ◾ books
 ◾ order_date
 
 Employee (klasa opisująca pracownika biblioteki), posiadająca pola:
+
 ◾ first_name
 ◾ last_name
 ◾ hire_date
@@ -29,6 +31,7 @@ Employee (klasa opisująca pracownika biblioteki), posiadająca pola:
 ◾ phone
 
 Book (klasa opisująca książkę), posiadająca pola
+
 ◾ library
 ◾ publication_date
 ◾ author_name
