@@ -38,6 +38,6 @@ class Property:
         self._address = value
 
     def __str__(self):
-        return f'Details about property: an area of {self.area}' \
-               f' square meters, {self.rooms} rooms, price is' \
-               f' {self.price}, address: {self.address}'
+        return f'Details about property: an area of {self._area}' \
+               f' square meters, {self._rooms} rooms, price is' \
+               f' {self._price}, address: {self._address}'
