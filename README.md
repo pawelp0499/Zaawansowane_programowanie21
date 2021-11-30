@@ -14,3 +14,11 @@ wierszy
 ◾ wykorzystać metodę magiczną __dict__ do serializacji obiektu
 
 ◾ zwrócić z metody listę zserializowanych obiektów
+
+Kolejne lab:
+
+◾ zasoby z pliku movies.csv dostępne pod endpointem movies
+
+◾ dodanie nowych modeli danych dla reszty danych (links, ratings, tags)
+
+◾ dodanie nowych endpointow (links, ratings, tags)
