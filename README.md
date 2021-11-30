@@ -1,5 +1,7 @@
 # Creating API with Flask and Flask-RESTful
 
+Lab7: 
+
 Zadanie
 
 Endpoint, który zwraca listę filmów w postaci obiektów json. Kroki do wykonania:
@@ -15,10 +17,14 @@ wierszy
 
 ◾ zwrócić z metody listę zserializowanych obiektów
 
-Kolejne lab:
+Lab8:
 
 ◾ zasoby z pliku movies.csv dostępne pod endpointem movies
 
 ◾ dodanie nowych modeli danych dla reszty danych (links, ratings, tags)
 
 ◾ dodanie nowych endpointow (links, ratings, tags)
+
+Lab9:
+
+◾ Uruchomić API na platformie https://www.heroku.com
