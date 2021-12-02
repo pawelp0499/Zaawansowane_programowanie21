@@ -1,5 +1,7 @@
-# Zaawansowane_programowianie21
-Witaj w repozytorium z zajęć Zaawansowane programowanie! 👋
+# Advanced Python Programming Classes
+Welcome in Advanced Programming (Zaawansowane programowanie) classes repo 👋
+
+Branches content:
 
 🔸 'Lab2' Branch - Basic loops
 
