@@ -27,6 +27,15 @@ Lab8:
 
 Lab9:
 
-◾ Uruchomić API na platformie https://www.heroku.com
+◾ Uruchomić API na platformie [Heroku](https://www.heroku.com) 
 
 Adres: https://csvapi2021.herokuapp.com/
+
+###### Endpoints
+
+```
+/movies
+/links
+/ratings
+/tags
+```
