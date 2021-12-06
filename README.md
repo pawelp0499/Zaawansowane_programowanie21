@@ -13,5 +13,13 @@ Branches content:
 
 🔸 'Lab6' Branch - Imports (Absolute and Relative)
 
-🔸 'Lab7' Branch - REST API  with Flask and Flask-RESTful to read data from CSV file, deployed on heroku platform, Docker containerization technology used - realized during labs number 7, 8, 9, 10
+🔸 'Lab7' Branch - REST API  with Flask and Flask-RESTful to read data from CSV file, deployed on [Heroku](https://csvapi2021.herokuapp.com/) platform, Docker containerization technology used - realized during labs number 7, 8, 9, 10
 
+###### Endpoints
+
+```
+/movies
+/links
+/ratings
+/tags
+```
