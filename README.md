@@ -39,3 +39,7 @@ Adres: https://csvapi2021.herokuapp.com/
 /ratings
 /tags
 ```
+
+Lab10:
+
+◾ konteneryzacja
