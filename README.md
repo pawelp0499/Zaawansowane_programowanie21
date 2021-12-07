@@ -42,4 +42,8 @@ Adres: https://csvapi2021.herokuapp.com/
 
 Lab10:
 
-◾ konteneryzacja
+◾ konfiguracja docker-compose.yaml, uruchomienie kontenera, utworzenie wolumenu
+
+Lab11:
+
+◾ utworzenie Dockerfile
