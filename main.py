@@ -53,4 +53,4 @@ api.add_resource(PrintLinks, '/links')
 api.add_resource(PrintTags, '/tags')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
