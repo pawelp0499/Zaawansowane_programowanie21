@@ -25,3 +25,6 @@ Branches content:
 ```
 
 🔸 'Lab9' Branch - Image processing using OpenCV
+
+- reading text from image with pytesseract library
+- image tresholding
