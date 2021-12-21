@@ -11,7 +11,7 @@ class Zamowienie:
         self._platnosc = platnosc
 
     @property
-    def dieta(self):
+    def dieta(self) -> str:
         return self._dieta
 
     @dieta.setter
@@ -19,7 +19,7 @@ class Zamowienie:
         self._dieta = value
 
     @property
-    def ilosc(self):
+    def ilosc(self) -> int:
         return self._ilosc
 
     @ilosc.setter
@@ -27,7 +27,7 @@ class Zamowienie:
         self._ilosc = value
 
     @property
-    def cenajednostkowa(self):
+    def cenajednostkowa(self) -> float:
         return self._cenajednostkowa
 
     @cenajednostkowa.setter
@@ -35,14 +35,14 @@ class Zamowienie:
         self._cenajednostkowa = value
 
     @property
-    def platnosc(self):
+    def platnosc(self) -> str:
         return self._platnosc
 
     @platnosc.setter
     def platnosc(self, value: str):
         self._platnosc = value
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Dieta {self._dieta} " \
                f"w ilosci {self._ilosc}" \
                f"w cenie {self._cenajednostkowa}," \
@@ -52,5 +52,5 @@ class Zamowienie:
     def oblicz_wartosc_zamowienia(self) -> float:
         return round((self._ilosc * self._cenajednostkowa), 2)
 
-    def zwroc_kalorie(self):
+    def zwroc_kalorie(self) -> float:
         return Dieta.kcal
