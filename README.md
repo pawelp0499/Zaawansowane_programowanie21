@@ -29,4 +29,4 @@ Branches content:
 - reading text from image with pytesseract library
 - image tresholding
 
-🔸 'person_detecting' Branch
+🔸 'person_detection' Branch
