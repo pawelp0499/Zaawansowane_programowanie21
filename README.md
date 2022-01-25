@@ -1,7 +1,7 @@
 # Person detection
 
 
-####Install
+#### Install
 ```
 pip install -r requirements.txt
 ```
@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 
 
-####Run
+#### Run
 ```
 python main.py -i 'full path to image file'
 python main.py -v 'full path to video file'
