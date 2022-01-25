@@ -30,7 +30,7 @@ def person_detector(source):
 """Function reads image from path and resizes before detecting process"""
 
 
-def image_detector(path):
+def image_detector(path: str):
     image = cv2.imread(path)
     image = imutils.resize(image, width=min(700, image.shape[1]),
                            height=min(525, image.shape[1]))
@@ -43,7 +43,7 @@ def image_detector(path):
 """Function reads video from path and resizes before detecting process"""
 
 
-def video_detector(path):
+def video_detector(path: str):
     video = cv2.VideoCapture(path)
     while video.isOpened():
         check, frame = video.read()
