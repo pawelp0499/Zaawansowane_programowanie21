@@ -1,5 +1,6 @@
-from detectors.file_path import *
 import argparse
+from detectors.file_path import *
+from detectors.video_capture import *
 
 
 def selector():
@@ -8,6 +9,8 @@ def selector():
                            help="full path to Image File")
     arg_parse.add_argument("-v", "--video", type=str,
                            help="full path to Video File")
+    arg_parse.add_argument("-c", "--camera", action=camera_detector(),
+                           help="no argument required")
 
     args = vars(arg_parse.parse_args())
     return args
@@ -19,5 +22,6 @@ def assigner(args):
 
     if image_path is not None:
         image_detector(image_path)
+
     elif video_path is not None:
         video_detector(video_path)
