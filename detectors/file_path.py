@@ -2,7 +2,7 @@ import imutils
 from services.hogcv import *
 
 
-"""Main detecting function"""
+"""Main detection function"""
 
 
 def person_detector(source):
