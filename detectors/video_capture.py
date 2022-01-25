@@ -11,7 +11,7 @@ video_capture = cv2.VideoCapture(0)
 """Main function to detect and count person on camera image"""
 
 
-def camera_detector():
+def camera_detector(name: str):
     while True:
         ret, vision = video_capture.read()
 
@@ -39,7 +39,7 @@ def camera_detector():
 
             cv2.putText(vision, f'{person - 1}', (305, 70),
                         cv2.cv2.FONT_HERSHEY_TRIPLEX, 1, (0, 255, 0), 2)
-        cv2.imshow('result', vision)
+        cv2.imshow(f'{name}', vision)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
