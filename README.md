@@ -30,10 +30,3 @@ Welcome in Advanced Programming (Zaawansowane programowanie) classes repo 👋
 - image tresholding
 
 🔸 '**person_detection**' Branch - OpenCV Project which allow to person detection and counting from image, video or camera vision
-
-```
-/movies
-/links
-/ratings
-/tags
-```
